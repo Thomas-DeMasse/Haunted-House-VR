@@ -5,13 +5,14 @@ using UnityEngine.UI;
 
 public class CoinInventory : MonoBehaviour
 {
-    public int coinsHeld;
+    //public int coinsHeld;
+    public int coinsHeld = 0;
     public Text coinCounter;
 
     // Start is called before the first frame update
     void Start()
     {
-        coinsHeld = 0;
+        //coinsHeld = 0;
         coinCounter.text = "Test";
         print("The variable is:" + coinsHeld);
     }
